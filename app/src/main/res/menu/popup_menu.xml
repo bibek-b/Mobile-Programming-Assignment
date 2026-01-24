@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popup_menu_edit"
+        android:title="Edit"
+        />
+    <item
+        android:id="@+id/popup_menu_copy"
+        android:title="Copy"
+        />
+    <item
+        android:id="@+id/popup_menu_paste"
+        android:title="Paste"
+        />
+    <item
+        android:id="@+id/popup_menu_redo"
+        android:title="Redo"
+        />
+    <item
+        android:id="@+id/popup_menu_undo"
+        android:title="Undo"
+        />
+</menu>
