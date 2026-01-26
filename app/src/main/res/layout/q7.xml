@@ -1,0 +1,49 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_first_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first num"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_second_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="60dp"
+        android:hint="Enter second num"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="120dp"
+        android:text="Multiply" />
+
+    <Button
+        android:id="@+id/btn_divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="180dp"
+        android:text="Divide" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_y="240dp"
+        android:text="Result:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_y="240dp"
+        android:layout_x="80dp"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>
